@@ -1,0 +1,1 @@
+g++ -O3 -Wall -I./include -I./src  server.cpp  src/XmlRpcClient.cpp   src/XmlRpcDispatch.cpp src/XmlRpcServer.cpp   src/XmlRpcServerConnection.cpp    src/XmlRpcServerMethod.cpp  src/XmlRpcSocket.cpp src/XmlRpcSource.cpp src/XmlRpcUtil.cpp src/XmlRpcValue.cpp  -D_WIN32 -DWIN32 -D_WINDOWS -o xmlrpc_server.exe   -lws2_32
